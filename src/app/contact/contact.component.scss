@@ -1,65 +1,89 @@
 .info{
-   border-style: solid;
-   border-width: 2px;
-   border-color: #DF013A;
-   background-color: #A4A4A4;
-   padding: 0px;
-   border-radius: 1px;
-   width: 40%;
-
+    padding: 0px;
+    width: 70%;
+    //background-color: #424242;
+    
 }
-.company{
-    background-color:#D8D8D8; 
-    font-size:46px;
-    font-weight: bold;
-    text-align: left;
+.company,.sub-company,.name{
+    margin-left: 39px;
     margin-bottom: 0px;
 }
+
+.company{
+    color:#D8D8D8;
+    font-size:34px;
+    font-weight: bold;
+    text-align: left;
+ 
+   
+}
 .sub-company{
-    background-color:#D8D8D8; 
-    font-size:32px;
+    color:#D8D8D8;
+    font-size:24px;
     font-weight: normal;
     text-align: left;
+    margin-bottom:30px;
 }
 .name{
-    color:#2E2E2E;
+    color:#D8D8D8;
     font-size: 18px;
     font-weight: normal;
     text-align: left;
+    
 
 }
 .tel{
-    color:#2E2E2E;
+    i{
+        margin-right: 10px;
+    }
+    label{
+        position: relative;
+        bottom: 5px;
+        font-weight: normal;
+    }
+    color:#D8D8D8;
     font-weight: normal;
     font-size: 18px;
-    text-align: right;
+    text-align: left;
+    margin-bottom: 0px;
 }
 .mail{
-    padding: 10px 10px 0px;
-    background-color: #F1C40F;
-    text-align: left;
+    i{
+        margin-right: 10px;
+    }
+    label{
+        position: relative;
+        bottom: 5px;
+        font-weight: normal;
+        margin-bottom: 0px;
+    }
+    color:#D8D8D8;
+    font-size: 18px;
+    margin-bottom: 0px;
+    
 
+}
+.address{
+        i{
+        margin-right: 10px;
+    }
+    label{
+        position: relative;
+        bottom: 5px;
+        font-weight: normal;
+    }
+    color:#D8D8D8;
+    font-size: 18px;
 }
 h1{
     text-align: center;
     color: #D8D8D8;
-    font-size: 76px;
-    font-weight: normal;
+    font-size: 52px;
+    font-weight: bold;
     margin-bottom: 80px;
-}
-.info2{
-    border-style: solid;
-    border-width: 2px;
-    border-color: #DF013A;
-    background-color: #D8D8D8;
-    padding: 0px;
-    border-radius: 1px;
-    width: 40%;
-    margin-left: 10%;
     
 }
-.address{
-    padding: 8px 8px 8px;
-    background-color: #F1C40F;
-    text-align: left;
+
+i{
+    color:#D8D8D8;
 }
