@@ -4,7 +4,7 @@ import{ RouterModule, Routes } from  '@angular/router';
 
 const Routes: Routes =[
     { path:'contact',component: ContactComponent },
-    { path: 'home',component:HomeComponent }
+    { path: '**',component:HomeComponent }
 
 ];
 
