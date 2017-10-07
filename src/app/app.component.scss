@@ -1,6 +1,17 @@
 .navbar-default{
     border: none;
     margin-bottom: 0px;
+    background: #2E2E2E;
+   a{
+       color: #D8D8D8;
+   }
+
+    a:hover,a:active{
+        background-color: #BDBDBD;
+        color: #2E2E2E;
+    
+    
+   }
 
 }
 .navbar-brand{
@@ -11,7 +22,5 @@
     height: 100%;
     width: 100%;
 }
-.active{
-    background-color: #6E6E6E;
-}
+
 
