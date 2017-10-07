@@ -4,7 +4,7 @@
     //background-color: #424242;
     
 }
-.company,.sub-company,.name{
+.company,.sub-company{
     margin-left: 39px;
     margin-bottom: 0px;
 }
@@ -24,14 +24,6 @@
     text-align: left;
     margin-bottom:30px;
 }
-.name{
-    color:#D8D8D8;
-    font-size: 18px;
-    font-weight: normal;
-    text-align: left;
-    
-
-}
 .tel{
     i{
         margin-right: 10px;
@@ -43,7 +35,7 @@
     }
     color:#D8D8D8;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     margin-bottom: 0px;
 }
@@ -58,7 +50,7 @@
         margin-bottom: 0px;
     }
     color:#D8D8D8;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 0px;
     
 
@@ -73,14 +65,17 @@
         font-weight: normal;
     }
     color:#D8D8D8;
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 h1{
-    text-align: center;
+    margin-top: 80px;
+    text-align: left;
     color: #D8D8D8;
     font-size: 52px;
     font-weight: bold;
-    margin-bottom: 80px;
+    margin-bottom: 44px;
+    margin-left: 10%;
     
 }
 
