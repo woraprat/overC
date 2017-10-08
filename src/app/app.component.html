@@ -1,23 +1,21 @@
-<nav class="navbar navbar-default">
-
+<div class="col-sm-1 col-xs-4 col-md-6">
   <a routerLink="/home" class="navbar-brand" style="padding-top:5px">
-    <img src="\assets\icon\logo.png" alt="" style="width: 66px; height: 60px; margin-top:7px; margin-left:5px;">
+    <img src="\assets\icon\logo.png" alt="">
   </a>
-  <div class="navbar-nav nav navbar-right">
-    <ul class="navbar-nav nav ">
-      <li>
-        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" style="margin-right:38px; margin-top:6px; font-size:18px;" class="menu">home</a>
-      </li>
-      <li>
-        <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" style="margin-right:38px; margin-top:6px; font-size:18px" class="menu">contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+</div>
+<div class="col-sm-11 col-xs-8 col-md-6 right-site" style=" margin-top:18px;">
+
+  <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
+    <button>Home</button>
+  </a>
+
+
+  <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
+    <button>Contact</button>
+  </a>
+
+</div>
+
 <div class="contianer">
-  <div class="col-sm-6 col-xs-6 col-md-12">
-    <div class="col-sm-6 col-xs-6 col-md-12">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
+  <router-outlet></router-outlet>
 </div>

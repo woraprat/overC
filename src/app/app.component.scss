@@ -2,25 +2,109 @@
     border: none;
     margin-bottom: 0px;
     background: #2E2E2E;
-   a{
-       color: #D8D8D8;
-   }
-
-    a:hover,a:active{
-        background-color: #BDBDBD;
-        color: #2E2E2E;
-    
-    
-   }
 
 }
+.right-site{
+    text-align:right;
+}
 .navbar-brand{
-    height: 70px;
+    height: 30%;
 }
 .col-md-12{
     background: #2E2E2E;
     height: 100%;
     width: 100%;
 }
+
+a{
+    margin-right:28px;
+    margin-top:6px;
+    font-size:18px;
+    
+ 
+    button{
+        background-color:#2E2E2E;
+        color: #BDBDBD;
+        border: none; 
+    }
+}
+img{
+    width: 66px;
+    height: 60px;
+    margin-top:7px;
+    margin-left:5px;
+
+}
+@media screen  and (max-width:480px){
+    .right-site{
+        text-align: right;
+        margin-top: 25px;
+        padding:0px;
+        margin-left:25px;
+        width: 58.666667%;
+    }
+   .navbar-brand{
+       padding: 0px;
+   }
+   a{
+    margin-right:14px;
+    margin-top:6px;
+    font-size:18px;
+        button{
+        padding: 0px;
+        width: 65px;
+        }
+    }
+    img{
+    width: 50px;
+    height: 46px;
+    margin-top:0px;
+    margin-left:0px;
+    }
+
+}
+@media screen  and (min-width:768px){
+    img{
+        width: 57px;
+        height: 52px;
+        margin-top:0px;
+        margin-left:0px;
+        }
+
+}
+
+@media screen  and (min-width:1024px){
+    img{
+        width: 73px;
+        height: 67px;
+        margin-top:7px;
+        margin-left:5px;
+
+    }
+    a{
+            button{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+  
+}
+@media screen  and (min-width:1366px){
+    img{
+        width: 82px;
+        height: 74px;
+        margin-top:7px;
+        margin-left:5px;
+
+    }
+    a{
+            button{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+  
+}
+
 
 
