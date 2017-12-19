@@ -3,3 +3,9 @@ body{
     background-color: #2E2E2E;
     font-family: 'Fjalla One', sans-serif;
 }
+h2,h4,h3,p,h2,button,a,li{
+    color: #BDBDBD;
+}
+img{
+    width: 100%;
+}

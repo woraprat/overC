@@ -1,5 +1,4 @@
 a{
-    color:#BDBDBD;
     font-size: 18px;
     padding: 0px;
     margin-bottom: 15px;
@@ -9,27 +8,48 @@ a:hover{
     background-color: #BDBDBD;
     color:#2E2E2E;
 }
-h3{
-    color:#BDBDBD;
-    margin-bottom: 35px;   
-}
-.container-fluid{
-    margin-left: 25px;
-}
+
+//------------------ service page--------------------
+// h3{
+    
+//     margin-bottom: 35px;   
+// }
+// ------------------------------------------------------
+
 h4,p,h2{
     margin-top: 0px;
-    color: #BDBDBD;
 }
-img{
-    width: 100%;
+h3{
+    font-weight: 600;
+    margin-top: 50px;
 }
+p{
+    font-size:18px;
+}
+
 .row{
     margin-bottom: 10px;
 }
 .pic{
-width: 100%;
 height: 270px;
 }
+
+.pic-topic{
+   
+    width: 60%;
+    height: 145px;
+}
+
+ul{
+    margin-top: 35px;
+    li{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
+
 .more{
     font-size: 14px;
 }
@@ -37,7 +57,7 @@ height: 270px;
 // +++++++++++++++++++++++++++++++++++++++++++++++++++ res +++++++++++++++++++++++++++++++++++++++++++
 @media screen  and (max-width:480px){
     p{
-        font-size: 43px;
+        font-size: 18px;
     }
     img{
         width: 100%;
