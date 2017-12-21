@@ -30,25 +30,26 @@ p{
 .row{
     margin-bottom: 10px;
 }
+.pic-group{
+    margin-top: 30px;
+    
+}
 .pic{
 height: 270px;
 }
 
 .pic-topic{
    
-    width: 60%;
-    height: 145px;
+    width: 100%;
+    height: 180px;
 }
 
-ul{
-    margin-top: 35px;
-    li{
+
+    .topic{
         font-size: 18px;
         font-weight: 600;
-        margin-top: 25px;
         margin-bottom: 10px;
     }
-}
 
 .more{
     font-size: 14px;
