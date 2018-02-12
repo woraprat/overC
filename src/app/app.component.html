@@ -1,24 +1,36 @@
 <div class="col-sm-1 col-xs-4 col-md-6">
   <a routerLink="/home" class="navbar-brand" style="padding-top:5px">
-    <img src="\assets\icon\logo.png" alt="">
+    <img src="assets\img\212.jpg" alt="">
   </a>
 </div>
 <div class="col-sm-11 col-xs-8 col-md-6 right-site" style=" margin-top:18px;">
   <p class="contact">call us 805 550 0723</p>
   <p class="contact">email us info@OverC.com</p>
 </div>
-<!-- <div class="col-sm-11 col-xs-8 col-md-6 right-site" style=" margin-top:60px;margin-bottom:15px;">
+
+<div class="col-sm-11 col-xs-8 col-md-6 right-site hidden" style=" margin-top:60px;margin-bottom:15px;">
 
   <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
+    <button>Home</button>
+  </a>
+
+  <a routerLink="/service" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
     <button>Service</button>
   </a>
 
+  <a routerLink="/product" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
+    <button>Product</button>
+  </a>
 
   <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
     <button>Contact</button>
   </a>
 
-</div> -->
+  <a routerLink="/about-us" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="menu">
+    <button>About us</button>
+  </a>
+
+</div>
 <div class="contianer">
   <router-outlet></router-outlet>
 </div>
