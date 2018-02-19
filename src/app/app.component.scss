@@ -117,7 +117,7 @@ img {
     padding: 0px;
   }
   a {
-    margin-right: 14px;
+    margin-right: 10px;
     margin-top: 6px;
     font-size: 18px;
     button {
@@ -137,11 +137,17 @@ img {
       font-size: 14px;
     }
   }
+  .contact {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     margin-right: 5px;
+  }
+  .menu{
+    margin-right: 0px;
   }
 }
 
