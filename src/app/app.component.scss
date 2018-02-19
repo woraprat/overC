@@ -1,117 +1,191 @@
-.navbar-default{
+.container {
+  width: 100%;
+}
+
+.navbar-default {
+  border: none;
+  margin-bottom: 0px;
+  background: #2E2E2E;
+}
+
+// ------------------------------------เมนู--------------------------------------------------------
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 10px 8px;
+  font-weight: 600;
+  text-align: center;
+  color: #D8D8D8;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked+label {
+  color: #BDBDBD;
+  border: 1px solid #BDBDBD;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4 {
+  display: block;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4 {
+  display: block;
+}
+
+//---------------------------------------------------------------------------
+.contact {
+  font-size: 17px;
+}
+
+.right-site {
+  text-align: right;
+}
+
+.navbar-brand {
+  height: 30%;
+}
+
+.col-md-12 {
+  background: #2E2E2E;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  margin-right: 28px;
+  margin-top: 6px;
+  font-size: 18px;
+  button {
+    background-color: #2E2E2E;
     border: none;
-    margin-bottom: 0px;
-    background: #2E2E2E;
-
-}
-.contact{
-    font-size: 17px;
+  }
 }
 
-.right-site{
-    text-align:right;
-}
-.navbar-brand{
-    height: 30%;
-}
-.col-md-12{
-    background: #2E2E2E;
-    height: 100%;
-    width: 100%;
+img {
+  width: 65px;
+  height: 60px;
+  margin-top: 7px;
+  margin-left: 5px;
+  border-radius: 50px;
 }
 
-a{
-    margin-right:28px;
-    margin-top:6px;
-    font-size:18px;
-    
- 
-    button{
-        background-color:#2E2E2E;
-        border: none; 
+@media screen and (max-width:480px) {
+  .right-site {
+    text-align: right;
+    margin-top: 25px;
+    padding: 0px;
+    margin-left: 25px;
+    width: 58.666667%;
+  }
+  .navbar-brand {
+    padding: 0px;
+  }
+  a {
+    margin-right: 14px;
+    margin-top: 6px;
+    font-size: 18px;
+    button {
+      padding: 0px;
+      width: 65px;
     }
-}
-img{
-    width: 65px;
-    height: 60px;
-    margin-top:7px;
-    margin-left:5px;
-    border-radius: 50px;
-}
-
-@media screen  and (max-width:480px){
-    .right-site{
-        text-align: right;
-        margin-top: 25px;
-        padding:0px;
-        margin-left:25px;
-        width: 58.666667%;
-    }
-   .navbar-brand{
-       padding: 0px;
-   }
-   a{
-    margin-right:14px;
-    margin-top:6px;
-    font-size:18px;
-        button{
-        padding: 0px;
-        width: 65px;
-        }
-    }
-    img{
+  }
+  img {
     width: 80px;
     height: 70px;
-    margin-top:0px;
-    margin-left:0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .header {
+    margin-right: 5px;
+    label {
+      font-size: 20px;
     }
-
-}
-@media screen  and (min-width:768px){
-    img{
-        width: 90px;
-        height: 85px;
-        margin-top:0px;
-        margin-left:0px;
-        }
-        a{
-            font-size: 24px;
-        }
-
+  }
 }
 
-@media screen  and (min-width:1024px){
-    img{
-        width: 73px;
-        height: 67px;
-        margin-top:7px;
-        margin-left:5px;
-
+@media screen and (max-width: 768px) {
+  .header {
+    margin-right: 5px;
+    label {
+      font-size: 14px;
     }
-    a{
-            button{
-                font-size: 20px;
-                margin-top: 10px;
-            }
-        }
-  
+  }
 }
-@media screen  and (min-width:1366px){
-    img{
-        width: 80px;
-        height: 74px;
-        margin-top:7px;
-        margin-left:5px;
 
+@media screen and (min-width:768px) {
+  img {
+    width: 90px;
+    height: 85px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  img {
+    width: 73px;
+    height: 67px;
+    margin-top: 7px;
+    margin-left: 5px;
+  }
+  a {
+    button {
+      font-size: 20px;
+      margin-top: 10px;
     }
-    a{
-            button{
-                font-size: 20px;
-                margin-top: 10px;
-            }
-        }
-  
+  }
 }
 
-
-
+@media screen and (min-width:1366px) {
+  img {
+    width: 80px;
+    height: 74px;
+    margin-top: 7px;
+    margin-left: 5px;
+  }
+  a {
+    button {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+}

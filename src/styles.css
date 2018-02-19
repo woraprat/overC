@@ -4,7 +4,11 @@ body{
     font-family: 'Fjalla One', sans-serif;
 }
 h2,h4,h3,p,h2,button,a,li{
-    color: #BDBDBD;
+    color: #D8D8D8;
+    font-weight: bold;
+}
+p,label{
+  color: #D8D8D8;  
 }
 img{
     width: 100%;
