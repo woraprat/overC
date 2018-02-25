@@ -31,7 +31,7 @@ p {
 
 .picPro {
   margin-left: 25px;
-  margin-top:25px;
+  margin-top: 25px;
   .subpicPro {
     width: 18.66666667%;
   }
@@ -64,10 +64,13 @@ p {
 @media screen and (min-width:768px) {
   p {
     font-size: 20px;
+    font-weight: 200;
   }
 }
-@media screen and (max-width:480px){
-p{
+
+@media screen and (max-width:480px) {
+  p {
     font-size: 16px;
-}
+    font-weight: 200;
+  }
 }
