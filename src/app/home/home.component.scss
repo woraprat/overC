@@ -31,7 +31,8 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 200;
 }
 
 .row {
@@ -69,7 +70,7 @@ p {
 // +++++++++++++++++++++++++++++++++++++++++++++++++++ res +++++++++++++++++++++++++++++++++++++++++++
 @media screen and (max-width:480px) {
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
   img {
     width: 100%;
@@ -80,7 +81,7 @@ p {
     width: 36%;
   }
   .pic {
-    height: 150px;
+    height: 220px;
   }
 }
 
